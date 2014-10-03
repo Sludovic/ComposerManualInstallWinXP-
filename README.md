@@ -54,6 +54,7 @@ and retry command
 echo %APPDATA%
 ```
 **2/ Get Composer**
+
 Go to you project directory
 ```Batchfile c:\htdocs\myProject\ ```
 Run command 
