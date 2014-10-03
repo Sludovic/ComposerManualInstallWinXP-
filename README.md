@@ -7,15 +7,17 @@ It's only a step by step installation for *composer* and for project who already
 
 1/ Check if php can be used in command line 
 Start menu -> exectute -> cmd (administrative right needed)
-try the command 
+
+Try the command 
 ```Batchfile
 php -r "echo 'test';"
 ```
-and if you will see 
-	test - at the next line 
-then go to 2/
-else continue
-use the command 
+and if you will see at the next line:
+```Batchfile
+test
+```
+
+then go to 2/ else continue to use the command 
 ```Batchfile
 PATH
 ```
