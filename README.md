@@ -3,6 +3,9 @@
 
 It's only a step by step installation for *composer* and for project who already use *composer* to install dependencies.
 
+ONLY the Application Data directory is WINXP specific and the URL to install *composer*
+ You can change to *http* if not working
+
 **Manual Install**
 
 **1/ Check if php can be used in command line**
