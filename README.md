@@ -56,7 +56,9 @@ echo %APPDATA%
 **2/ Get Composer**
 
 Go to you project directory
-```Batchfile c:\htdocs\myProject\ ```
+```Batchfile 
+c:\htdocs\myProject\
+```
 Run command 
 ```Batchfile 
 php -r "readfile('https://getcomposer.org/installer');" | php
