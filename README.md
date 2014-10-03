@@ -32,6 +32,8 @@ Like this
 ```Batchfile
 PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;C:\php\;
 ```
+Copy and Run the line in command prompt
+
 Next, try 
 ```Batchfile
 echo %APPDATA%
