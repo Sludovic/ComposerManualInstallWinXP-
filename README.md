@@ -5,7 +5,8 @@ It's only a step by step installation for *composer* and for project who already
 
 **Manual Install**
 
-1/ Check if php can be used in command line 
+**1/ Check if php can be used in command line**
+
 Start menu -> exectute -> cmd (administrative right needed)
 
 Try the command 
@@ -16,8 +17,7 @@ and if you will see at the next line:
 ```Batchfile
 test
 ```
-
-then go to 2/ else continue to use the command 
+then go to *2/* else continue to use the command 
 ```Batchfile
 PATH
 ```
@@ -53,17 +53,16 @@ and retry command
 ```Batchfile
 echo %APPDATA%
 ```
-
-2/ Go to you directory
-
-example: ```Batchfile c:\htdocs\myProject\ ```
+**2/ Get Composer**
+Go to you project directory
+```Batchfile c:\htdocs\myProject\ ```
 Run command 
 ```Batchfile 
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
+**3/ Install composer to your project**
 
-3/ Go to you directory
-example: 
+Go to you directory
 ```Batchfile
 C:\htdocs\myProject\ 
 ```
