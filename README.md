@@ -17,11 +17,11 @@ Try the command
 ```Batchfile
 php -r "echo 'test';"
 ```
-and if you will see at the next line:
+and if you see at the next line:
 ```Batchfile
 test
 ```
-then go to *2/* else continue to use the command 
+then go to *2/* else continue by using the command 
 ```Batchfile
 PATH
 ```
@@ -29,7 +29,7 @@ and you will see something like that
 ```Batchfile
 PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\WBEM;
 ```
-Copy the line in a notepad and add the windows path to your php directory like 
+Copy your line in a notepad and add to the windows PATH, your php directory like 
 ```Batchfile
 C:\php\
 ``` 
@@ -59,7 +59,7 @@ echo %APPDATA%
 ```
 **2/ Get Composer**
 
-Go to you project directory
+Go to your project directory
 ```Batchfile 
 c:\htdocs\myProject\
 ```
@@ -77,6 +77,6 @@ If the project have a composer.json file, Run the command :
 ```Batchfile
 php composer.phar install
 ```
-You will see installation of dependencies
+You will see the installation of dependencies
 
 And that's all, you can begin/continue the configuration of the project.
