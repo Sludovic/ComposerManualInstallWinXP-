@@ -5,7 +5,7 @@ It's only a step by step installation for *composer* and for project who already
 
 ONLY the Application Data directory is WINXP specific and the URL to install *composer*
 
-You can change to *http* if not working
+You can change it to *http* if not working
 
 **Manual Install**
 
